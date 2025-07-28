@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MO₂ Max Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🍻 MO₂ Max Test</h1>
+    <div id="user-setup">
+      <label for="user-select">Select User:</label>
+      <select id="user-select"></select>
+      <input type="text" id="new-user" placeholder="New user name" />
+      <button onclick="createUser()">Create User</button>
+    </div>
+    <div id="game-area" style="display:none;">
+      <div id="game-content"></div>
+      <button id="next-button" onclick="nextGame()">Next</button>
+    </div>
+    <div id="result-area" style="display:none;">
+      <h2>Final Score: <span id="final-score"></span></h2>
+      <div id="leaderboard"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
