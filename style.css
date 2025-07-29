@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+}
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#start-screen {
+    background-image: url('UploadedImage4.jpg');
+}
+#good-luck-screen {
+    background-image: url('UploadedImage1.jpg');
+}
+#game-screen {
+    background-image: url('UploadedImage3.jpg');
+}
+#final-screen {
+    background-image: url('UploadedImage0.jpg');
+}
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+}
+h1 {
+  background-color: black;
+  color: white;
+}
+h2 {
+  background-color: black;
+  color: white;
+}
+h3 {
+  font-size: 2.0em;
+  font-weight: bold; 
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+}
+p {
+  background-color: lightgray;
+  color: green;
+}
+ul {
+  background-color: white;
+  color: black;
+  text-align: left;
+  list-style-type: none
+}
