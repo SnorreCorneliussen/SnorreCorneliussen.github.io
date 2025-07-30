@@ -183,7 +183,7 @@ function showFinalScore() {
 function updateLeaderboard(name, score) {
     let leaderboard = JSON.parse(localStorage.getItem("leaderboard") || "[]");
     leaderboard.push({name, score});
-    leaderboard.sort((a, b) => a.score - b.score);
+    leaderboard.sort((a, b) => b.score - a.score);
     localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
     const list = document.getElementById("leaderboard");
     list.innerHTML = "";
