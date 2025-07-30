@@ -175,7 +175,7 @@ function showFinalScore() {
     document.getElementById("game-screen").style.display = "none";
     document.getElementById("final-screen").style.display = "flex";
     const totalScore = subgameScores.reduce((a, b) => a + b, 0);
-    document.getElementById("final-score").textContent = `Your Score: ${totalScore}`;
+    document.getElementById("final-score").textContent = `${playerName}, your MO2 Max is: ${totalScore}`;
     document.getElementById("final-sound").play();
     updateLeaderboard(playerName, totalScore);
 }
